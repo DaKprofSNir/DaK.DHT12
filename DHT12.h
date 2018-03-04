@@ -8,6 +8,7 @@
     #define DHT12_h
     #include "Wire.h"
     
+    #define DH12_OK  0
     #define DH12_erreur_Absent  1
     #define DH12_erreur_Checsum 2
     #define DH12_erreur_bus     3
