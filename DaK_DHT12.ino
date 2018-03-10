@@ -2,7 +2,7 @@
 
 #include "DHT12.h"
 #include <Wire.h>     //The DHT12 uses I2C comunication.
-DHT12 dht12;          //Preset scale CELSIUS and ID 0x5c.
+DHT12 dht12;          
 
 // DUE : Serial est le "programming port USB" près l'alim et passe via un Atmega16U2 comme le UNO
 // M0  : remplacer Serial par SerialUSB
