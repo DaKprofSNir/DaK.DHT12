@@ -5,7 +5,7 @@
 DHT12 dht12;          
 
 // DUE : Serial est le "programming port USB" près l'alim et passe via un Atmega16U2 comme le UNO
-// M0  : remplacer Serial par SerialUSB
+// M0 et Leonardo : remplacer Serial par SerialUSB
 
 void setup() {
   Wire.begin();
